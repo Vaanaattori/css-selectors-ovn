@@ -1,0 +1,57 @@
+@font-face {
+    font-family: fontnet;
+    src: url(Prociono-Regular-webfont.woff);
+}
+
+@font-face {
+    font-family: fontnot;
+    src: url(LongCang-Regular.ttf);
+}
+
+h1 {
+    font-family: fontnet;
+}
+
+h2 {
+    font-family: fontnot;
+}
+
+.main_nav li {
+    color: aqua;
+}
+
+article p {
+    color: #ffee00;
+}
+
+em {
+   background-color: blueviolet; 
+}
+
+p[title="textsnutt"] {
+    color:  #ff3300;
+}
+
+p[title="viktig paragraf"] {
+    background-color: #FF3300;
+}
+
+p[title="mycket viktig text"]  {
+    background-color: #FF3300;
+}
+
+#zebra li:nth-of-type(2n) {
+    color: #99ccff;
+}
+
+#zebra li:last-child {
+    border-bottom: 1px solid #000;
+}
+
+tr:nth-of-type(3n+2) {
+    background-color: #CCFF66;
+}
+
+tr:nth-of-type(3n) {
+    background-color: #FFFF99;
+} 
